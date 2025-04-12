@@ -1,0 +1,2 @@
+# A-DEEP-LEARNING-APPROACH-TO-STOCK-PRICE-FORECASTING-LEVERAGING-INVESTOR-SENTIMENT-DATA
+Decreasing money management gambles and expanding rewards are conceivable with an accurate stock  price prediction. To gauge future stock qualities, I propose a model called MS-SSA-LSTM that consolidates  information from a few sources that effect stock costs and uses profound learning, swarm knowledge, and opinion  examination.
