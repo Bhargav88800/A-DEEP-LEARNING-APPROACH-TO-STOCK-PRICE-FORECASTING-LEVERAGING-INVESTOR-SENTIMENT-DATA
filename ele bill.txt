@@ -1,0 +1,223 @@
+con=int(input("Enter consumer no:"))
+name=input("Enter consumer name:")
+a=int(input("Enter previous reading:"))
+b=int(input("Enter current reading:"))
+d=int(input("enter cost per unit:"))
+
+nunit=b-a
+billamount=nunit*d
+
+print("="*30)
+print('consumer number=',con)
+print('consumer name=',name)
+print('previousreading=',a)
+print('current reading=',b)
+print('cost per unit=',d)
+print('bill amount=',billamount)
+
+#Write
+
+
+
+rollno=int(input("Enter The Student Roll Number:"))
+stdname=input("Enter The Student name:")
+phy=int(input("Enter Physics Marks:"))
+che=int(input("Enter chemistry Marks:"))
+mat=int(input("Enter Maths Marks:"))
+tot=phy+che+mat
+avg=tot/3
+per=tot/300*100
+if per>=90:
+    gpa=9.0
+elif per>=85 and per<90:
+    gpa=8.5
+elif per>=80 and per<85:
+    gpa=8.0
+print("Enter student roll number",rollno)
+print("Enter the student name",stdname)
+print("Enter physics Marks",phy)
+print("Enter chemistry marks",che)
+print("Enter maths Marks",mat)
+print("total marks",tot)
+print("averge marks",avg)
+print("Percentage",per)
+print("Grade",gpa)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Write a program to find gross and net salary of an employee
+
+
+
+empid=int(input("Employee ID:"))
+empname=input("Employee Name:")
+Basicsal=int(input("Basic Salary:"))
+ta=int(input("Travelling Allowances:"))
+da=int(input("daily Allowances:"))
+hra=int(input("house rent allowances:"))
+li=int(input("life insurance:"))
+pf=int(input("Provident fund:"))
+tax=int(input("Tax:"))
+gross=Basicsal+hra+da
+ded=li+pf+tax
+netsal=gross-ded
+print("Employee ID",empid)
+print("Employee Name",empname)
+print("basic salary",Basicsal)
+print("Travelling Allowances",ta)
+print("daily Allowances",da)
+print("house rent allowances",hra)
+print("life insurance",li)
+print("Provident fund",pf)
+print("Tax",tax)
+print("gross salary:",gross)
+print("Deduction:",ded)
+print("Net salary:",netsal)
+
+#write a program to issue the driving license
+
+a=input("Enter a Name:")
+b=int(input("Enter a age:"))
+if b>=18 and age<=75:
+    print(a,"is eligible for driving licences")
+else:
+    print(a,"is not eligible for driving licences")
+
+
+#Find greater of three given numbers (Nested IF)
+
+a=int(input("Enter First Number:"))
+b=int(input("Enter Second number:"))
+c=int(input("Enter third number:"))
+if a>b and b>c:
+    print(a,"is grater than",b,"and",c)
+elif b>a and b>c:
+    print(b,"is grater than",a,"and",c)
+elif c>a and c>b:
+    print(c,"is grater than",a,"and",b)
+else:
+    print("all numbers are equal")
+
+
+#This is belongs to my love
+
+a=input("Enter Name:")
+b=int(input("Enter Age:"))
+c=input("Enter Name:")
+d=int(input("Enter Age:"))
+if b>d:
+    print(a,"loves",c)
+if d>b:
+    print(c,"loves",a)
+if b>=d:
+    print("Both are in love")
+
+
+
+
+
+
+#print even or oddd
+
+
+
+a=int(input("Enter the NUmber:"))
+if a%2==0:
+    print("is even number")
+else:
+    print("is odd Number ")
+
+
+
+
+
+
+num=int(input("Enter the NUmber:"))
+if num%5==0 and num%7==0:
+    print(num,"is divisible by 5 and 7")
+else:
+    print(num,"not divisible by 5 and 7")
+
+
+
+
+
+
+
+
+list=[10,20,30,40,50,60,70,80,90,100]
+sum=0 
+i=0 
+while i<len(list):
+    sum=sum+list[i]
+    i=i+1 
+print("sum of all elements in the list=",sum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''n=int(input("Enter the number:"))
+f=1 
+count=0
+while f<=n:
+    if n%f==0:
+        print(f)
+        count=count+1 
+    f=f+1
+if count==2:
+    print(n,"is prime number")
+else:
+    print(n,"is not prime number")'''
+    
+    
+    
+list=[1,2,3,4,5,6,7,9,10]
+sum=1
+i=0
+while list[i]<len(list):
+    sum+=list[i]
+    i+=1 
+    sum+=1
+    print(sum)
+    
+
+
+
+
